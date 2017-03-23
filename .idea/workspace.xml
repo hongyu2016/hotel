@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f532e312-8e0b-49b4-9800-a4fa6aa9f4c0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/index/common.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/index/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/index/controller/Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/index/controller/UserType.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/index/model/User.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/index/model/UserType.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/index/view/index/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/build.php" afterPath="$PROJECT_DIR$/application/build.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.php" afterPath="$PROJECT_DIR$/build.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,22 +53,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/admin/controller/Index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/build.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="30" column="6" lean-forward="false" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
-              <folding />
+            <state relative-caret-position="80">
+              <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+              <folding>
+                <element signature="e#75#1032#0#PHP" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,10 +111,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="397" />
-    <option name="y" value="115" />
-    <option name="width" value="1142" />
-    <option name="height" value="936" />
+    <option name="x" value="422" />
+    <option name="y" value="116" />
+    <option name="width" value="1193" />
+    <option name="height" value="895" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -393,18 +389,33 @@
       <updated>1490175609966</updated>
       <workItem from="1490175611609" duration="1224000" />
       <workItem from="1490239074839" duration="9370000" />
-      <workItem from="1490257651693" duration="1187000" />
+      <workItem from="1490257651693" duration="3075000" />
     </task>
+    <task id="LOCAL-00001" summary="提交">
+      <created>1490258972187</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1490258972187</updated>
+    </task>
+    <task id="LOCAL-00002" summary="后台静态页面模板">
+      <created>1490259879948</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1490259879948</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11781000" />
+    <option name="totallyTimeSpent" value="13669000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="397" y="115" width="1142" height="936" extended-state="0" />
-    <editor active="true" />
+    <frame x="422" y="116" width="1193" height="895" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21402214" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2044053" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -428,6 +439,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交" />
+    <MESSAGE value="后台静态页面模板" />
+    <option name="LAST_COMMIT_MESSAGE" value="后台静态页面模板" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -463,7 +479,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#75#1032#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -556,14 +574,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/admin.php" />
-    <entry file="file://$PROJECT_DIR$/application/admin/controller/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -577,6 +587,16 @@
         <state relative-caret-position="440">
           <caret line="30" column="6" lean-forward="false" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/controller/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <folding>
+            <element signature="e#75#1032#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
