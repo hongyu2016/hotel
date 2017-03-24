@@ -17,6 +17,21 @@ class Index extends Controller{
         $row=Db::name('user')->select();
         dump($row);
         //$this->assign('')
-        return '<h1>这是后台入口</h1>';
+        //return '<h1>这是后台入口</h1>';
+       return $this ->fetch();
+        //return $this ->display();
+        //return view('index',['name'=>'thinkphp']);
+    }
+
+    public function test_1(){
+
+        //$data = ['name'=>'thinkphp','url'=>'thinkphp.cn'];
+        //return ['data'=>$data,'code'=>1,'message'=>'操作完成'];
+
+        $data = ['name'=>'thinkphp','url'=>'thinkphp.cn'];
+        // 指定json数据输出
+        return json(['data'=>$data,'code'=>1,'message'=>'操作完成']);
+        //return xml(['data'=>$data,'code'=>1,'message'=>'操作完成']);
+
     }
 }
