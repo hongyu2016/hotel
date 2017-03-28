@@ -16,7 +16,8 @@ use think\Request;
 class Index extends Controller{
     public function index(){
         $row=Db::name('user')->select();
-        dump($row);
+        //dump($row);
+
         //$this->assign('')
         //return '<h1>这是后台入口</h1>';
        //return $this ->fetch();
@@ -25,13 +26,13 @@ class Index extends Controller{
         //return view('index',['name'=>'thinkphp']);
 
         //请求头信息
-        $info = Request::instance()->header();
+        /*$info = Request::instance()->header();
         dump ($info['accept']);
         dump ($info['accept-encoding']);
         dump ($info['user-agent']);
-        dump ($info['host']);
+        dump ($info['host']);*/
 
-        return view('index');  //直接使用view助手函数渲染模板输出 你照着人家的来啊  不是  我对那个fetch有点好奇  为何不出来东西 一般不用去指定路径的
+        return view('index');  //直接使用view助手函数渲染模板输出
     }
 
     public function test_1(){
