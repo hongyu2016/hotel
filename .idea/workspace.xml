@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f532e312-8e0b-49b4-9800-a4fa6aa9f4c0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/view/commom/main.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/view/commom/top.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/admin/view/commom/head.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/view/commom/main.html" afterPath="$PROJECT_DIR$/application/admin/view/commom/main.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/view/index/index.html" afterPath="$PROJECT_DIR$/application/admin/view/index/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/view/login/index.html" afterPath="$PROJECT_DIR$/application/admin/view/login/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -58,11 +55,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/admin/view/index/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="159" column="6" lean-forward="true" selection-start-line="159" selection-start-column="6" selection-end-line="159" selection-end-column="6" />
+            <state relative-caret-position="0">
+              <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="25" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                <element signature="e#4449#4858#0" expanded="false" />
+                <element signature="e#4568#4977#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -81,8 +78,8 @@
       <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/admin/view/commom/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="23" />
+            <state relative-caret-position="360">
+              <caret line="18" column="69" lean-forward="false" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -147,8 +144,8 @@
         <option value="$PROJECT_DIR$/application/admin/view/login/index.html" />
         <option value="$PROJECT_DIR$/application/admin/view/commom/head.html" />
         <option value="$PROJECT_DIR$/application/admin/view/commom/top.html" />
-        <option value="$PROJECT_DIR$/application/admin/view/commom/main.html" />
         <option value="$PROJECT_DIR$/application/admin/view/index/index.html" />
+        <option value="$PROJECT_DIR$/application/admin/view/commom/main.html" />
       </list>
     </option>
   </component>
@@ -169,9 +166,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="354" />
+    <option name="x" value="350" />
     <option name="y" value="101" />
-    <option name="width" value="1314" />
+    <option name="width" value="1318" />
     <option name="height" value="925" />
   </component>
   <component name="ProjectView">
@@ -537,7 +534,7 @@
       <workItem from="1490316790972" duration="11212000" />
       <workItem from="1490575915457" duration="16464000" />
       <workItem from="1490662787672" duration="2397000" />
-      <workItem from="1490665992882" duration="14656000" />
+      <workItem from="1490665992882" duration="16132000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1490258972187</created>
@@ -581,17 +578,24 @@
       <option name="project" value="LOCAL" />
       <updated>1490685402891</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="后台静态页面模板--{block}  来继承模板 布局">
+      <created>1490689465896</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1490689465896</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61014000" />
+    <option name="totallyTimeSpent" value="62490000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="354" y="101" width="1314" height="925" extended-state="0" />
+    <frame x="350" y="101" width="1318" height="925" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18550955" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18492064" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -619,7 +623,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="提交" />
     <MESSAGE value="后台静态页面模板" />
-    <option name="LAST_COMMIT_MESSAGE" value="后台静态页面模板" />
+    <MESSAGE value="后台静态页面模板--{block}  来继承模板 布局" />
+    <option name="LAST_COMMIT_MESSAGE" value="后台静态页面模板--{block}  来继承模板 布局" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -997,19 +1002,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/admin/view/commom/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="23" />
+        <state relative-caret-position="360">
+          <caret line="18" column="69" lean-forward="false" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/admin/view/index/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="159" column="6" lean-forward="true" selection-start-line="159" selection-start-column="6" selection-end-line="159" selection-end-column="6" />
+        <state relative-caret-position="0">
+          <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="25" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="e#4449#4858#0" expanded="false" />
+            <element signature="e#4568#4977#0" expanded="false" />
           </folding>
         </state>
       </provider>

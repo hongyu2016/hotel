@@ -5,6 +5,13 @@
       <div class="row">
         {include file="../application/admin/view/commom/menu.html" /}
         <div class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 main">
+
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Library</a></li>
+            <li class="breadcrumb-item active">Data</li>
+          </ol>
+
           <h2>Section title</h2>
           <div class="table-responsive">
             <table class="table table-striped">
@@ -139,8 +146,7 @@
 
 {/block}
 {block name='script'}
-<script src="__EXTEND__/bootstrap4/tether.min.js"></script>
-<script src="__EXTEND__/bootstrap4/js/bootstrap.min.js"></script>
+
 <script>
     $(function () {
         var one_menu=$('.one-menu');
