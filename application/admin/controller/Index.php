@@ -2,6 +2,7 @@
 namespace app\admin\controller;
 use think\Db;
 use think\Controller;
+use think\Request;
 
 /*class Index
 {
@@ -18,9 +19,19 @@ class Index extends Controller{
         dump($row);
         //$this->assign('')
         //return '<h1>这是后台入口</h1>';
-       return $this ->fetch();
+       //return $this ->fetch();
+
         //return $this ->display();
         //return view('index',['name'=>'thinkphp']);
+
+        //请求头信息
+        $info = Request::instance()->header();
+        dump ($info['accept']);
+        dump ($info['accept-encoding']);
+        dump ($info['user-agent']);
+        dump ($info['host']);
+
+        return view('index');  //直接使用view助手函数渲染模板输出 你照着人家的来啊  不是  我对那个fetch有点好奇  为何不出来东西 一般不用去指定路径的
     }
 
     public function test_1(){
