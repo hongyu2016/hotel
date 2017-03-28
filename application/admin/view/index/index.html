@@ -1,18 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
-    <title>后台管理系统</title>
-    <link href="__EXTEND__/bootstrap4/css/bootstrap.css" rel="stylesheet">
-    <link href="__CSS__/dashboard.css" rel="stylesheet">
-  </head>
-  <body>
-    {include file="../application/admin/view/commom/head.html" /}
+{extend name="commom/main" /}
+{block name='body'}
+    {include file="../application/admin/view/commom/top.html" /}
     <div class="container-fluid">
       <div class="row">
         {include file="../application/admin/view/commom/menu.html" /}
@@ -149,26 +137,27 @@
       </div>
     </div>
 
-    <script src="__JS__/jquery-3.1.1.min.js"></script>
-    <script src="__EXTEND__/bootstrap4/tether.min.js"></script>
-    <script src="__EXTEND__/bootstrap4/js/bootstrap.min.js"></script>
-    <script>
-        $(function () {
-            var one_menu=$('.one-menu');
-            one_menu.off('click').on('click',function () {
-                var sub_ul=$(this).next('ul.sub-ul');
-                if($(this).hasClass('active')){
-                    sub_ul.slideUp();
-                    $(this).removeClass('active');
-                    $(this).parent().removeClass('active');
-                }else{
-                    sub_ul.slideDown();
-                    $(this).addClass('active');
-                    $(this).parent().addClass('active');
-                }
+{/block}
+{block name='script'}
+<script src="__EXTEND__/bootstrap4/tether.min.js"></script>
+<script src="__EXTEND__/bootstrap4/js/bootstrap.min.js"></script>
+<script>
+    $(function () {
+        var one_menu=$('.one-menu');
+        one_menu.off('click').on('click',function () {
+            var sub_ul=$(this).next('ul.sub-ul');
+            if($(this).hasClass('active')){
+                sub_ul.slideUp();
+                $(this).removeClass('active');
+                $(this).parent().removeClass('active');
+            }else{
+                sub_ul.slideDown();
+                $(this).addClass('active');
+                $(this).parent().addClass('active');
+            }
 
-            })
         })
-    </script>
-  </body>
-</html>
+    })
+</script>
+{/block}
+
