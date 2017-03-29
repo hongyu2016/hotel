@@ -17,4 +17,9 @@ class Admin extends Model
             return false;
         }
     }
+    //退出登录
+    public static function logout(){
+        session('ext_user',NULL);
+        return;
+    }
 }

@@ -22,6 +22,7 @@ class Index extends Controller{
        $session=Session::get('ext_user.admin_name');  //获取session 若session不存在，跳转到登录页
         if (!$session){
             $this->redirect('Login/index');
+            exit();
         }
        return $this ->fetch();
 
@@ -49,5 +50,14 @@ class Index extends Controller{
         return json(['data'=>$data,'code'=>1,'message'=>'操作完成']);
         //return xml(['data'=>$data,'code'=>1,'message'=>'操作完成']);
 
+    }
+    //退出登录
+    public function logout(){
+        \app\admin\model\Admin::logout();
+        if(!session('?ext_user')){
+            $this->redirect('Login/index');
+            exit();
+        }
+        return NULL;
     }
 }
