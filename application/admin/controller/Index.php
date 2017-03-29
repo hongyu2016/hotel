@@ -3,7 +3,7 @@ namespace app\admin\controller;
 use think\Db;
 use think\Controller;
 use think\Request;
-
+use think\Session;
 /*class Index
 {
     public function index()
@@ -17,9 +17,12 @@ class Index extends Controller{
     public function index(){
         $row=Db::name('user')->select();
         //dump($row);
-
         //$this->assign('')
         //return '<h1>这是后台入口</h1>';
+       $session=Session::get('ext_user.admin_name');  //获取session 若session不存在，跳转到登录页
+        if (!$session){
+            $this->redirect('Login/index');
+        }
        return $this ->fetch();
 
         //return $this ->display();
@@ -33,6 +36,7 @@ class Index extends Controller{
         dump ($info['host']);*/
 
        // return view('index');  //直接使用view助手函数渲染模板输出
+
     }
 
     public function test_1(){
