@@ -53,7 +53,7 @@ class Index extends Controller{
     }
     //退出登录
     public function logout(){
-        \app\admin\model\Admin::logout();
+        \app\admin\model\Admin::logout();  //调用model退出登录方法
         if(!session('?ext_user')){
             $this->redirect('Login/index');
             exit();
