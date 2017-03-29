@@ -4,6 +4,7 @@ return [
     'view_replace_str'  => array(
         '__CSS__' => '../static/admin/css',
         '__JS__' => '../static/admin/js',
-        '__EXTEND__' => '../static/admin/extend'
+        '__EXTEND__' => '../static/admin/extend',
+        '__web_root__' => '../static/admin'
     )
 ];
