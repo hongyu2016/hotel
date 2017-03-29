@@ -20,7 +20,7 @@ class Index extends Controller{
 
         //$this->assign('')
         //return '<h1>这是后台入口</h1>';
-       //return $this ->fetch();
+       return $this ->fetch();
 
         //return $this ->display();
         //return view('index',['name'=>'thinkphp']);
@@ -32,7 +32,7 @@ class Index extends Controller{
         dump ($info['user-agent']);
         dump ($info['host']);*/
 
-        return view('index');  //直接使用view助手函数渲染模板输出
+       // return view('index');  //直接使用view助手函数渲染模板输出
     }
 
     public function test_1(){
