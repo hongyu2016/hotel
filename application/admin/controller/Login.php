@@ -18,6 +18,8 @@ class Login extends Controller
             //验证码验证失败
             return $this->error('验证码错误');
         };
+
+
     }
 
 }
