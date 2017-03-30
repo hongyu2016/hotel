@@ -12,6 +12,6 @@ return [
         'expire' => 1800, /*时间长度*/
     ],
     'URL_MODEL'=>2,
-    'web_root' => 'public/index.php',
+    'web_root' => '/thinkphp_test1/public/index.php',
 
 ];
