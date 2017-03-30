@@ -12,4 +12,5 @@ return [
         'auto_start' => true,
         'expire' => 1800, /*时间长度*/
     ],
+
 ];
