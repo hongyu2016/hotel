@@ -18,7 +18,8 @@ class Login extends Controller
 
         $check=\app\admin\model\Admin::login($name,$password);  //引用Admin model
         if($check){
-            $this->redirect("Index/index");
+            //$this->redirect("Index/index");
+            header(strtolower("location: "."/admin/index"));
             exit();
         }else{
             return $this->error('用户名或密码错误');

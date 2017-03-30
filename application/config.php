@@ -252,6 +252,7 @@ return [
         'length'   => 4,
         // 验证成功后是否重置
         'reset'    => true,
-        'useZh'    => true,
+        //是否中文
+        'useZh'    => false,
     ],
 ];
