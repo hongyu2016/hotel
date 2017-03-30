@@ -69,4 +69,10 @@ class Index extends Controller{
         }
        return $this->fetch();
     }
+    /*
+     * 修改密码表单
+     * */
+    public function dochangepsw(){
+
+    }
 }

@@ -1,5 +1,21 @@
 {extend name="commom/main" /}
 {block name='content'}
 <h2>修改密码</h2>
-
+<div class="row">
+    <form method="post" action="index/dochangepsw" class="col-md-4">
+        <div class="form-group">
+            <label for="password">旧密码</label>
+            <input type="password" class="form-control" id="password" name="password" aria-describedby="password" placeholder="请输入旧密码" required>
+        </div>
+        <div class="form-group">
+            <label for="newpassword">新密码</label>
+            <input type="password" class="form-control" id="newpassword" name="newpassword" placeholder="请输入新密码">
+        </div>
+        <div class="form-group">
+            <label for="repassword">确认密码</label>
+            <input type="password" class="form-control" id="repassword" name="repassword" placeholder="请再次输入新密码">
+        </div>
+        <button type="submit" class="btn btn-primary">提交</button>
+    </form>
+</div>
 {/block}
