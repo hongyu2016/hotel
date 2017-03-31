@@ -2,10 +2,10 @@
 {block name='content'}
 <h2>修改密码</h2>
 <div class="row">
-    <form method="post" action="index/dochangepsw" class="col-md-4">
+    <form method="post" action="{:url('admin/index/dochangepsw')}" class="col-md-4">
         <div class="form-group">
-            <label for="password">旧密码</label>
-            <input type="password" class="form-control" id="password" name="password" aria-describedby="password" placeholder="请输入旧密码" required>
+            <label for="oldpassword">旧密码</label>
+            <input type="password" class="form-control" id="oldpassword" name="oldpassword" aria-describedby="password" placeholder="请输入旧密码" required>
         </div>
         <div class="form-group">
             <label for="newpassword">新密码</label>

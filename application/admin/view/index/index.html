@@ -131,23 +131,5 @@
 {/block}
 {block name='script'}
 
-<script>
-    $(function () {
-        var one_menu=$('.one-menu');
-        one_menu.off('click').on('click',function () {
-            var sub_ul=$(this).next('ul.sub-ul');
-            if($(this).hasClass('active')){
-                sub_ul.slideUp();
-                $(this).removeClass('active');
-                $(this).parent().removeClass('active');
-            }else{
-                sub_ul.slideDown();
-                $(this).addClass('active');
-                $(this).parent().addClass('active');
-            }
-
-        })
-    })
-</script>
 {/block}
 

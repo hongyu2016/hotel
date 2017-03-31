@@ -73,6 +73,26 @@ class Index extends Controller{
      * 修改密码表单
      * */
     public function dochangepsw(){
-
+        $oldpassword=md5(input('request.oldpassword'));
+        $newpassword=input('request.newpassword');
+        $repassword=input('request.repassword');
+        $name=session('ext_user')['admin_name']; //取出session的用户名
+        $changepsw=\app\admin\model\Admin::search($name);
+        $password=$changepsw['admin_password'];  //取出原密码 因为$changepsw返回的是admin的所有数组
+        if($password==$oldpassword){
+            if ($newpassword==$repassword){
+                $updatepassword=\app\admin\model\Admin::updatepsw($name,$newpassword);
+                if ($updatepassword){
+                    session('ext_user',null);
+                    return $this->success('修改成功','/admin/login');
+                }else{
+                    return $this->error('修改密码失败');
+                }
+            }else{
+                return $this->error('两次密码输入不一致');
+            }
+        }else{
+            return $this->error('原密码输入错误');
+        }
     }
 }
