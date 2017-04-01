@@ -10,16 +10,15 @@ class Index extends Controller{
      * 首页
      * */
     public function index(){
-        $row=Db::name('user')->select();
-        //dump($row);
-        //$this->assign('')
-        //return '<h1>这是后台入口</h1>';
-       //$session=Session::get('ext_user.admin_name');  //获取session 若session不存在，跳转到登录页
         if (!session('ext_user')){
             //$this->redirect('Login/index');
             header(strtolower("location: "."/admin/login"));
             exit();
         }
+        $menu=\app\admin\model\Menu::menu();
+
+       // dump($menu);
+        $this->assign('menu',$menu);
        return $this ->fetch();
 
         //return $this ->display();

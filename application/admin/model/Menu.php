@@ -9,6 +9,7 @@ use think\Model;
 class Menu extends Model
 {
     public static function menu(){
-
+       $menuTop= Menu::select();
+       //return $menu;
     }
 }
