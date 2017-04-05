@@ -9,7 +9,7 @@ return [
     ),
     'session' => [
         'auto_start' => true,
-        'expire' => 1800, /*时间长度*/
+        'expire' => 18000, /*时间长度*/
     ],
     'URL_MODEL'=>2,
     'web_root' => '/thinkphp_test1/public/index.php',

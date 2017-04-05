@@ -6,7 +6,9 @@
                 <ul class="sub-ul">
                     {volist name="vo['pid']" id="vi"}
                     <li>
-                        <a href="#" class="sub-menu">{$vi.title}</a>
+                        {$vi.href}
+
+                        <a href="{:url($vi.href)}" class="sub-menu">{$vi.title}</a>
                     </li>
                     {/volist}
                 </ul>

@@ -16,10 +16,8 @@ class Index extends Controller{
             exit();
         }
         $menu=\app\admin\model\Menu::menu();
-
-       // dump($menu);
         $this->assign('menu',$menu);
-       return $this ->fetch();
+        return $this ->fetch();
 
         //return $this ->display();
         //return view('index',['name'=>'thinkphp']);
@@ -66,6 +64,8 @@ class Index extends Controller{
             header(strtolower("location: "."/admin/login"));
             exit();
         }
+        $menu=\app\admin\model\Menu::menu();
+        $this->assign('menu',$menu);
        return $this->fetch();
     }
     /*
