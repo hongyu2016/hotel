@@ -9,7 +9,9 @@ use think\Model;
 class Menu extends Model
 {
     public static function menu(){
-       $menuTop= Menu::select();
-       //return $menu;
+       //$menuTop= Menu::where('pid','0')->select();
+        $menuTop=Menu::order('pid')->select();
+        $menu=getTree($menuTop,0);
+        return $menu;
     }
 }

@@ -1,20 +1,16 @@
 <div class="col-sm-3 col-md-2 sidebar">
     <ul class="nav nav-sidebar">
         {volist name="menu" id="vo"}
-            {$vo.title}
+            <li>
+                <a class="one-menu" href="javascript:;">{$vo.title}</a>
+                <ul class="sub-ul">
+                    {volist name="vo['pid']" id="vi"}
+                    <li>
+                        <a href="#" class="sub-menu">{$vi.title}</a>
+                    </li>
+                    {/volist}
+                </ul>
+            <li>
         {/volist}
-        <li>
-            <a class="one-menu" href="javascript:;">一级菜单</a>
-            <ul class="sub-ul">
-                <li>
-                    <a href="#" class="sub-menu">二级菜单</a>
-                </li>
-                <li>
-                    <a href="#" class="sub-menu">二级菜单</a>
-                </li>
-            </ul>
-        </li>
-
-
     </ul>
 </div>
