@@ -2,14 +2,21 @@
 {block name='content'}
 <h2>添加新闻</h2>
 <div class="row">
-    <form method="post" action="{:url('admin/index/dochangepsw')}" class="col-md-6">
+    <form method="post" action="{:url('admin/news/doaddnews')}" class="col-md-6">
         <div class="form-group">
             <label for="title">标题</label>
-            <input type="password" class="form-control" id="title" name="title" aria-describedby="password" placeholder="请输入新闻标题" required>
+            <input type="text" class="form-control" id="title" name="title" aria-describedby="password" placeholder="请输入新闻标题" required>
+        </div>
+        <div class="form-control">
+            <label class="custom-control custom-checkbox">
+                <input type="checkbox" name="carousel" class="custom-control-input">
+                <span class="custom-control-indicator"></span>
+                <span class="custom-control-description">是否设置为轮播图</span>
+            </label>
         </div>
         <div class="form-group">
             <label for="content">内容</label>
-            <textarea class="form-control" id="content" name="content" placeholder="新闻内容"></textarea>
+            <textarea class="form-control" id="content" name="content" placeholder="新闻内容" rows="10"></textarea>
         </div>
         <button type="submit" class="btn btn-primary">提交</button>
     </form>
