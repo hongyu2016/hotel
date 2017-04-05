@@ -26,13 +26,13 @@ class News extends Controller{
         $data=array();
         $data['title']=input('request.title');
         $data['content']=input('request.content');
-
+        $data['carousel']=(int)input('request.carousel');
         if(!empty($data['title'])){
 
             $news=\app\admin\model\News::addnews($data);
             if($news){
 
-                return $this->success('修改成功');
+                return $this->success('添加成功');
             }
         }
     }

@@ -26,3 +26,8 @@ function getTree($data,$pid){
     }
     return $tree;
 }
+function getTime(){
+    $time = time();
+    $datetime = date("Y-m-d H:i:s",$time);
+    return $datetime;
+}

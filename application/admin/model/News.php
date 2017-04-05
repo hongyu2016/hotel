@@ -10,11 +10,18 @@ class News extends Model
 {
     public static function addnews($data){
         $where['title']=$data['title'];
-        //$user=Admin::where($where)->update(['admin_password'=>md5($newpassword)]);
         $news = new News; //实例化模型
+        $carousel=$data['carousel'];
+        if (empty($carousel)){
+            $carousel=0;
+        }
         $news->data([
             'title'  =>  $data['title'],
-            'content' =>  $data['content']
+            'content' =>  $data['content'],
+            'push_time' =>  getTime(),  //转换时间 在common.php 中
+            'author' =>'admin',
+            'source' => '水研人才库',
+            'carousel'=>$carousel
         ]);
         $news->save();
         if($news){
@@ -24,4 +31,5 @@ class News extends Model
         }
 
     }
+
 }
