@@ -42,7 +42,11 @@ class News extends Controller{
         $menu=\app\admin\model\Menu::menu();
         $this->assign('menu',$menu);
         $newslist=\app\admin\model\News::newslist();
+        //获取分页显示
+        $page=$newslist->render();
         $this->assign('newslist',$newslist);
+        $this->assign('page',$page);
         return $this ->fetch();
+
     }
 }

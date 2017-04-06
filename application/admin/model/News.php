@@ -2,6 +2,7 @@
 namespace app\admin\model;
 
 use think\Model;
+
 //文件命名对应着admin表
 /*
  *添加新闻
@@ -32,7 +33,7 @@ class News extends Model
 
     }
     public static function newslist(){
-        $newslist=News::select();
+        $newslist=News::paginate(10);
         return $newslist;
     }
 

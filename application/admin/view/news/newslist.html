@@ -12,10 +12,11 @@
                 <th>新闻内容</th>
                 <th>图片</th>
                 <th>是否轮播显示</th>
+                <th>操作</th>
             </tr>
         </thead>
         <tbody>
-          {volist name="newslist" id="vo"}
+          {volist name="newslist" id="vo" empty="暂时没有数据"}
             <tr>
                 <td>{$vo.push_time}</td>
                 <td>{$vo.author}</td>
@@ -23,11 +24,20 @@
                 <td>{$vo.title}</td>
                 <td>{$vo.content}</td>
                 <td>{$vo.img}</td>
-                <td>{$vo.carousel}</td>
+                <td>
+                    {$vo.carousel== 1 ? "显示" : "隐藏"}
+                </td>
+                <td>
+                    <button type="button" class="btn btn-secondary btn-sm">编辑</button>
+                    <button type="button" class="btn btn-primary btn-sm">查看</button>
+                </td>
             </tr>
           {/volist}
         </tbody>
     </table>
+    <div class="clearfix">
+        {$page}
+    </div>
 </div>
 <script>
     $(function(){
