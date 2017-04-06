@@ -1,0 +1,38 @@
+{extend name="commom/main" /}
+{block name='content'}
+<h2>新闻列表</h2>
+<div class="row">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>发布时间</th>
+                <th>作者</th>
+                <th>来源</th>
+                <th>新闻标题</th>
+                <th>新闻内容</th>
+                <th>图片</th>
+                <th>是否轮播显示</th>
+            </tr>
+        </thead>
+        <tbody>
+          {volist name="newslist" id="vo"}
+            <tr>
+                <td>{$vo.push_time}</td>
+                <td>{$vo.author}</td>
+                <td>{$vo.source}</td>
+                <td>{$vo.title}</td>
+                <td>{$vo.content}</td>
+                <td>{$vo.img}</td>
+                <td>{$vo.carousel}</td>
+            </tr>
+          {/volist}
+        </tbody>
+    </table>
+</div>
+<script>
+    $(function(){
+
+    })
+</script>
+{/block}
+

@@ -31,5 +31,9 @@ class News extends Model
         }
 
     }
+    public static function newslist(){
+        $newslist=News::select();
+        return $newslist;
+    }
 
 }

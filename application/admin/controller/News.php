@@ -28,12 +28,21 @@ class News extends Controller{
         $data['content']=input('request.content');
         $data['carousel']=(int)input('request.carousel');
         if(!empty($data['title'])){
-
             $news=\app\admin\model\News::addnews($data);
             if($news){
-
                 return $this->success('添加成功');
             }
         }
+    }
+    /*
+     * 新闻列表
+     * */
+    public function newslist(){
+        //左边菜单
+        $menu=\app\admin\model\Menu::menu();
+        $this->assign('menu',$menu);
+        $newslist=\app\admin\model\News::newslist();
+        $this->assign('newslist',$newslist);
+        return $this ->fetch();
     }
 }
