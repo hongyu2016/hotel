@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f532e312-8e0b-49b4-9800-a4fa6aa9f4c0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/view/news/newslist.html" afterPath="$PROJECT_DIR$/application/admin/view/news/newslist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/model/News.php" afterPath="$PROJECT_DIR$/application/admin/model/News.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -63,17 +63,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="News.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="News.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/admin/model/News.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="51" column="46" lean-forward="false" selection-start-line="51" selection-start-column="46" selection-end-line="51" selection-end-column="46" />
+            <state relative-caret-position="167">
+              <caret line="35" column="45" lean-forward="false" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="newslist.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="newslist.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/admin/view/news/newslist.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
@@ -164,8 +164,8 @@
         <option value="$PROJECT_DIR$/public/static/admin/css/dashboard.css" />
         <option value="$PROJECT_DIR$/application/admin/view/news/addnews.html" />
         <option value="$PROJECT_DIR$/application/admin/controller/News.php" />
-        <option value="$PROJECT_DIR$/application/admin/model/News.php" />
         <option value="$PROJECT_DIR$/application/admin/view/news/newslist.html" />
+        <option value="$PROJECT_DIR$/application/admin/model/News.php" />
       </list>
     </option>
   </component>
@@ -225,8 +225,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="190" />
-    <option name="y" value="257" />
+    <option name="x" value="151" />
+    <option name="y" value="207" />
     <option name="width" value="1199" />
     <option name="height" value="759" />
   </component>
@@ -664,7 +664,7 @@
       <workItem from="1491354243460" duration="7951000" />
       <workItem from="1491372711812" duration="14127000" />
       <workItem from="1491441000495" duration="11552000" />
-      <workItem from="1491527338115" duration="7435000" />
+      <workItem from="1491527338115" duration="8245000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1490258972187</created>
@@ -904,14 +904,21 @@
       <option name="project" value="LOCAL" />
       <updated>1491534621084</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="新闻列表 -编辑新闻">
+      <created>1491547455582</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1491547455582</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156677000" />
+    <option name="totallyTimeSpent" value="157487000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="190" y="257" width="1199" height="759" extended-state="0" />
+    <frame x="151" y="207" width="1199" height="759" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1989483" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1326,14 +1333,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/model/News.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="51" column="46" lean-forward="false" selection-start-line="51" selection-start-column="46" selection-end-line="51" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/admin/view/news/newslist.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -1342,6 +1341,14 @@
             <element signature="n#style#0;n#div#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/model/News.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="35" column="45" lean-forward="false" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>

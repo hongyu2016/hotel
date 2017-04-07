@@ -33,7 +33,7 @@ class News extends Model
 
     }
     public static function newslist(){
-        $newslist=News::paginate(10);
+        $newslist=News::order('push_time','desc')->paginate(10);
         return $newslist;
     }
     /*
