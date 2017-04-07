@@ -35,6 +35,36 @@ class News extends Controller{
         }
     }
     /*
+     * 编辑新闻
+     * */
+    public function editnews($id){
+        //左边菜单
+        $menu=\app\admin\model\Menu::menu();
+        $this->assign('menu',$menu);
+        //根据id 从数据库获取数据
+        $newsdetail=\app\admin\model\News::newsdetail($id);
+        $this->assign('detail',$newsdetail);
+        $this->assign('isedit',true);
+        return $this->fetch('addnews');
+    }
+    /*
+     * 编辑更新新闻方法
+     * */
+    public function doeditnews(){
+        $data=array();
+        $data['title']=input('request.title');
+        $data['content']=input('request.content');
+        $data['carousel']=(int)input('request.carousel');
+        $data['hid']=(int)input('request.hid');
+        if(!empty($data['title'])){
+            $news=\app\admin\model\News::editnews($data,$data['hid']);
+            if($news){
+                return $this->success('编辑成功');
+            }
+        }
+    }
+
+    /*
      * 新闻列表
      * */
     public function newslist(){
