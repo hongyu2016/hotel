@@ -1,0 +1,24 @@
+body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
+    font-family: "微软雅黑";
+}
+.hong-navbar{
+    background-color: #6cbc35;
+}
+.hong-navbar .navbar-brand{color: #fff}
+.hong-navbar .navbar-nav .nav-link{
+    color: #fff;
+    border-bottom: 2px solid transparent;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+.hong-navbar .navbar-nav .nav-link:hover{
+    border-bottom-color:  #fff;
+}
+.hong-navbar .navbar-nav .active>.nav-link{
+    border-bottom-color:  #fff;
+    color: #fff
+}

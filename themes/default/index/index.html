@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>无</title>
+    <meta name="description" content="">
+    <!--<link rel="stylesheet" href="__JS__/layui/css/layui.css">-->
+    <link rel="stylesheet" href="__INDEX__/bootstrap4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="__INDEX__/bootstrap4/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="__INDEX__/css/index_base.css">
+
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-light fixed-top hong-navbar">
+    <a class="navbar-brand" href="#">蕾诗曼酒店</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">主页 <span class="sr-only">(current)</span></a>
+            </li>
+            {foreach name="nav" item="vo"}
+            <li class="nav-item">
+                <a class="nav-link" href="{$vo.link}" target="{$vo.target}">{$vo.name}</a>
+            </li>
+            {/foreach}
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">用户名称</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown10">
+                    <a class="dropdown-item" href="#">个人中心</a>
+                    <a class="dropdown-item" href="#">退出登录</a>
+                </div>
+                <!--<a href="#" class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">用户名称 <b class="caret"></b></a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a href="#">个人中心</a></li>
+                    <li><a href="#">退出登录</a></li>
+                </ul>-->
+            </li>
+
+        </ul>
+    </div>
+</nav>
+
+
+<div class="container">
+    2017
+</div>
+<script src="__INDEX__/js/jquery.min.js"></script>
+<script src="__INDEX__/bootstrap4/js/tether.min.js"></script>
+<script src="__INDEX__/bootstrap4/js/vendor/popper.min.js"></script>
+<script src="__INDEX__/bootstrap4/js/bootstrap.min.js"></script>
+
+</body>
+</html>
