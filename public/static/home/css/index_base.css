@@ -1,6 +1,5 @@
 body {
-    min-height: 75rem;
-    padding-top: 4.5rem;
+    padding-top: 58px;
     font-family: "微软雅黑";
 }
 .hong-navbar{
@@ -21,4 +20,21 @@ body {
 .hong-navbar .navbar-nav .active>.nav-link{
     border-bottom-color:  #fff;
     color: #fff
+}
+.banner{
+    background: url(../images/6.jpg) no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    min-height: 750px;
+    position: relative;
+}
+.banner .search-info{
+    padding-top: 20rem;
+}
+.banner .search-box{
+    padding: 1em 1em;
+    background-color:#2a2b2a;
+    color: #fff;
 }

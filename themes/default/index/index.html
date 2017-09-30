@@ -13,43 +13,81 @@
 
 </head>
 <body>
+<!--菜单-->
 <nav class="navbar navbar-expand-md navbar-light fixed-top hong-navbar">
-    <a class="navbar-brand" href="#">蕾诗曼酒店</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">主页 <span class="sr-only">(current)</span></a>
-            </li>
-            {foreach name="nav" item="vo"}
-            <li class="nav-item">
-                <a class="nav-link" href="{$vo.link}" target="{$vo.target}">{$vo.name}</a>
-            </li>
-            {/foreach}
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-            <li class="dropdown">
-                <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">用户名称</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown10">
-                    <a class="dropdown-item" href="#">个人中心</a>
-                    <a class="dropdown-item" href="#">退出登录</a>
-                </div>
-                <!--<a href="#" class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">用户名称 <b class="caret"></b></a>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <li><a href="#">个人中心</a></li>
-                    <li><a href="#">退出登录</a></li>
-                </ul>-->
-            </li>
+    <div class="container">
+        <a class="navbar-brand" href="#">蕾诗曼酒店</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">主页 <span class="sr-only">(current)</span></a>
+                </li>
+                {foreach name="nav" item="vo"}
+                <li class="nav-item">
+                    <a class="nav-link" href="{$vo.link}" target="{$vo.target}">{$vo.name}</a>
+                </li>
+                {/foreach}
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">用户名称</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown10">
+                        <a class="dropdown-item" href="#">个人中心</a>
+                        <a class="dropdown-item" href="#">退出登录</a>
+                    </div>
+                </li>
 
-        </ul>
+            </ul>
+        </div>
     </div>
+
 </nav>
+<!--banner-->
+<div class="banner">
+    <div class="search-info">
+        <div class="container">
+            <div class="search-box">
+                <div class="row justify-content-md-center align-items-center">
+                    <div class="col-md-10">
+                        <div class="row">
+                            <div class="col col-md-3">
+                                <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="请输入内容">
+                            </div>
+                            <div class="col col-md-3">
+                                <input type="text" class="form-control" id="time-start" aria-describedby="emailHelp" placeholder="请输入开始时间">
+                            </div>
+                            <div class="col col-md-3">
+                                <input type="text" class="form-control" id="time-end" aria-describedby="emailHelp" placeholder="请输入结束时间">
+                            </div>
+                            <div class="col col-md-3">
+                                <select class="form-control" id="room-type">
+                                    <option>单房</option>
+                                    <option>双人房</option>
+                                    <option>情侣房</option>
+                                    <option>豪华总统套房</option>
+                                </select>
+                            </div>
+                        </div>
 
+                    </div>
+                    <div class="col-md-2">
+                        <a href="#" class="btn btn-primary btn-block">搜索</a>
+                    </div>
+                </div>
 
-<div class="container">
-    2017
+            </div>
+        </div>
+    </div>
+
+</div>
+<!--hot-->
+<div class="hot">
+    <div class="container">
+
+    </div>
 </div>
 <script src="__INDEX__/js/jquery.min.js"></script>
 <script src="__INDEX__/bootstrap4/js/tether.min.js"></script>
