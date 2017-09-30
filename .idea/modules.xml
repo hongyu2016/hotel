@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/thinkphp_test1.iml" filepath="$PROJECT_DIR$/.idea/thinkphp_test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/open_source_bms-dev.iml" filepath="$PROJECT_DIR$/.idea/open_source_bms-dev.iml" />
     </modules>
   </component>
 </project>
