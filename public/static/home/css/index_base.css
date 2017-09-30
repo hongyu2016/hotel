@@ -1,5 +1,5 @@
 body {
-    padding-top: 58px;
+    padding-top: 55px;
     font-family: "微软雅黑";
 }
 .hong-navbar{
@@ -38,3 +38,39 @@ body {
     background-color:#2a2b2a;
     color: #fff;
 }
+.tels{
+    margin: 2rem auto;
+}
+.card-block {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+@media (max-width: 1024px){
+    .banner {
+        min-height: 570px;
+    }
+    .banner .search-info{
+        padding-top: 13rem;
+    }
+}
+@media (max-width: 768px){
+    .banner {
+        min-height: 500px;
+    }
+    .banner .search-info{
+        padding-top: 10rem;
+    }
+}
+@media (max-width: 640px){
+    .banner {
+        min-height: 450px;
+    }
+    .banner .search-info{
+        padding-top: 4rem;
+    }
+}
+
+

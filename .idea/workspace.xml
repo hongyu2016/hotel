@@ -2,191 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d25bb8b-267e-43a0-88f7-40c160e7b5d1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/thinkphp_test1.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/admin/common.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/admin/controller/News.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/admin/controller/Test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/admin/controller/UserType.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/admin/model/Admin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/admin/model/Menu.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/admin/model/News.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/admin/model/User.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/admin/model/UserType.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/admin/view/commom/main.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/admin/view/commom/menu.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/admin/view/commom/top.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/admin/view/index/changepsw.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/admin/view/index/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/admin/view/login/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/admin/view/news/addnews.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/admin/view/news/newslist.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/build.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/extra/queue.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/index/common.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/index/controller/Test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/index/controller/UserType.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/index/model/User.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/index/model/UserType.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/index/view/index/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/extend/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phpunit.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/router.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/shuiyan.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/ExampleTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/TestCase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/blank_page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/charts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/codes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/compose-mail.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/css/animate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/css/graph.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/css/icon-font.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/fonts/WeatherIcons-Regular.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/fonts/digital-7-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/fonts/digital-7-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/fonts/digital-7-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/fonts/digital-7-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/fonts/digital-7_italic-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/fonts/digital-7_italic-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/fonts/digital-7_italic-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/fonts/digital-7_italic-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/fonts/digital-7_mono-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/fonts/digital-7_mono-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/fonts/digital-7_mono-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/fonts/digital-7_mono-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/fonts/weathericons-regular-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/fonts/weathericons-regular-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/fonts/weathericons-regular-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/fonts/weathericons-regular-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/forms.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/grids.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/images/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/images/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/images/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/images/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/images/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/images/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/images/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/images/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/images/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/images/7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/images/lock.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/images/search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/images/tick.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/images/user.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/inbox.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/js/Chart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/js/classie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/js/jquery-1.10.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/js/jquery.flexisel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/js/jquery.flot.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/js/jquery.nicescroll.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/js/scripts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/js/skycons.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/js/uisearch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/js/wow.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/media.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/sign-in.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/sign-up.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/tables.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webhtml/admin/widgets.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LICENSE.txt" afterPath="$PROJECT_DIR$/LICENSE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/config.php" afterPath="$PROJECT_DIR$/application/admin/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/controller/Index.php" afterPath="$PROJECT_DIR$/application/admin/controller/Index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/controller/Login.php" afterPath="$PROJECT_DIR$/application/admin/controller/Login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/command.php" afterPath="$PROJECT_DIR$/application/command.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/common.php" afterPath="$PROJECT_DIR$/application/common.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config.php" afterPath="$PROJECT_DIR$/application/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/database.php" afterPath="$PROJECT_DIR$/application/database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index/config.php" afterPath="$PROJECT_DIR$/application/index/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index/controller/Index.php" afterPath="$PROJECT_DIR$/application/index/controller/Index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/route.php" afterPath="$PROJECT_DIR$/application/route.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.php" afterPath="$PROJECT_DIR$/build.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/README.md" afterPath="$PROJECT_DIR$/thinkphp/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/base.php" afterPath="$PROJECT_DIR$/thinkphp/base.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/console.php" afterPath="$PROJECT_DIR$/thinkphp/console.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/convention.php" afterPath="$PROJECT_DIR$/thinkphp/convention.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/helper.php" afterPath="$PROJECT_DIR$/thinkphp/helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/lang/zh-cn.php" afterPath="$PROJECT_DIR$/thinkphp/lang/zh-cn.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/App.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/App.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/Cache.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Cache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/Config.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/Controller.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/Loader.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Loader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/Model.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/Paginator.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Paginator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/Request.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Request.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/Response.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Response.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/Route.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Route.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/Template.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Template.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/Url.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Url.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/Validate.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/Validate.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/View.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/View.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/File.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/File.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Lite.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Lite.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Memcache.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Memcache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Memcached.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Memcached.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Redis.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Redis.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Sqlite.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Sqlite.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Wincache.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Wincache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Xcache.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Xcache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/controller/Rest.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/controller/Rest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/controller/Yar.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/controller/Yar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/db/Builder.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/db/Builder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/db/Connection.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/db/Connection.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/db/Query.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/db/Query.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/db/builder/Mysql.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/db/builder/Mysql.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/db/builder/Pgsql.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/db/builder/Pgsql.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/db/builder/Sqlite.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/db/builder/Sqlite.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/db/builder/Sqlsrv.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/db/builder/Sqlsrv.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/db/connector/Mysql.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/db/connector/Mysql.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/db/connector/Pgsql.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/db/connector/Pgsql.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/db/connector/Sqlite.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/db/connector/Sqlite.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/db/connector/Sqlsrv.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/db/connector/Sqlsrv.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/log/driver/Socket.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/log/driver/Socket.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/model/Merge.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/model/Merge.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/model/Pivot.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/model/Pivot.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/model/relation/BelongsTo.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/model/relation/BelongsTo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/model/relation/BelongsToMany.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/model/relation/BelongsToMany.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/model/relation/HasMany.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/model/relation/HasMany.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/model/relation/HasManyThrough.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/model/relation/HasManyThrough.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/model/relation/HasOne.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/model/relation/HasOne.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/model/relation/MorphMany.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/model/relation/MorphMany.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/model/relation/MorphTo.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/model/relation/MorphTo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/model/relation/OneToOne.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/model/relation/OneToOne.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/think/template/TagLib.php" afterPath="$PROJECT_DIR$/thinkphp/library/think/template/TagLib.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/traits/controller/Jump.php" afterPath="$PROJECT_DIR$/thinkphp/library/traits/controller/Jump.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/library/traits/model/SoftDelete.php" afterPath="$PROJECT_DIR$/thinkphp/library/traits/model/SoftDelete.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp/tpl/think_exception.tpl" afterPath="$PROJECT_DIR$/thinkphp/tpl/think_exception.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/home/css/index_base.css" afterPath="$PROJECT_DIR$/public/static/home/css/index_base.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/default/index/index.html" afterPath="$PROJECT_DIR$/themes/default/index/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -201,21 +19,25 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/default/index/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="70" lean-forward="false" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="70" />
-              <folding />
+            <state relative-caret-position="402">
+              <caret line="123" column="65" lean-forward="false" selection-start-line="123" selection-start-column="65" selection-end-line="123" selection-end-column="65" />
+              <folding>
+                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#ul#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index_base.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index_base.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/static/home/css/index_base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+            <state relative-caret-position="444">
+              <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -303,8 +125,8 @@
       <list>
         <option value="$PROJECT_DIR$/application/common/controller/HomeBase.php" />
         <option value="$PROJECT_DIR$/application/config.php" />
-        <option value="$PROJECT_DIR$/themes/default/index/index.html" />
         <option value="$PROJECT_DIR$/public/static/home/css/index_base.css" />
+        <option value="$PROJECT_DIR$/themes/default/index/index.html" />
       </list>
     </option>
   </component>
@@ -319,10 +141,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="339" />
-    <option name="y" value="236" />
+    <option name="x" value="169" />
+    <option name="y" value="88" />
     <option name="width" value="1512" />
-    <option name="height" value="876" />
+    <option name="height" value="868" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -442,22 +264,51 @@
       <updated>1506670178770</updated>
       <workItem from="1506670180306" duration="3367000" />
       <workItem from="1506734190004" duration="6890000" />
-      <workItem from="1506751438937" duration="20000" />
+      <workItem from="1506751438937" duration="6098000" />
     </task>
+    <task id="LOCAL-00001" summary="初始化提交">
+      <created>1506751493477</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1506751493477</updated>
+    </task>
+    <task id="LOCAL-00002" summary="初始化提交">
+      <created>1506751872765</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1506751872765</updated>
+    </task>
+    <task id="LOCAL-00003" summary="初始化提交">
+      <created>1506755280666</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1506755280666</updated>
+    </task>
+    <task id="LOCAL-00004" summary="数据库文件">
+      <created>1506755742396</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1506755742396</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10277000" />
+    <option name="totallyTimeSpent" value="16355000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="339" y="236" width="1512" height="876" extended-state="0" />
-    <editor active="false" />
+    <frame x="169" y="88" width="1512" height="868" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21526822" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21526822" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -478,6 +329,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初始化提交" />
+    <MESSAGE value="数据库文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据库文件" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -487,7 +343,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="15" column="70" lean-forward="false" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="70" />
-          <folding />
+          <folding>
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -556,7 +416,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -686,19 +550,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="70" lean-forward="false" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="70" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="20">
+            <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/static/home/css/index_base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        <state relative-caret-position="444">
+          <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/default/index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="123" column="65" lean-forward="false" selection-start-line="123" selection-start-column="65" selection-end-line="123" selection-end-column="65" />
+          <folding>
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
