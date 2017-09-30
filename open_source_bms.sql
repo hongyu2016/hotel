@@ -1,16 +1,16 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : localhost
-Source Server Version : 50505
+Source Server         : localhost_3306
+Source Server Version : 50553
 Source Host           : localhost:3306
 Source Database       : open_source_bms
 
 Target Server Type    : MYSQL
-Target Server Version : 50505
+Target Server Version : 50553
 File Encoding         : 65001
 
-Date: 2017-04-19 10:56:40
+Date: 2017-09-30 15:15:06
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -34,7 +34,7 @@ CREATE TABLE `os_admin_user` (
 -- ----------------------------
 -- Records of os_admin_user
 -- ----------------------------
-INSERT INTO `os_admin_user` VALUES ('1', 'admin', '0dfc7612f607db6c17fd99388e9e5f9c', '1', '2016-10-18 15:28:37', '2017-04-12 12:45:08', '127.0.0.1');
+INSERT INTO `os_admin_user` VALUES ('1', 'admin', '0dfc7612f607db6c17fd99388e9e5f9c', '1', '2016-10-18 15:28:37', '2017-09-29 15:53:18', '127.0.0.1');
 
 -- ----------------------------
 -- Table structure for os_article
@@ -57,12 +57,13 @@ CREATE TABLE `os_article` (
   `create_time` datetime NOT NULL COMMENT '创建时间',
   `publish_time` datetime NOT NULL COMMENT '发布时间',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COMMENT='文章表';
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COMMENT='文章表';
 
 -- ----------------------------
 -- Records of os_article
 -- ----------------------------
 INSERT INTO `os_article` VALUES ('1', '1', '测试文章一', '', '<p>测试内容</p>', 'admin', '1', '0', '', null, '0', '0', '0', '2017-04-11 14:10:10', '2017-04-11 14:09:45');
+INSERT INTO `os_article` VALUES ('2', '1', '标题2017', '无', '<p>无2017</p>', '无', '1', '0', '', null, '1', '1', '0', '2017-09-29 15:28:51', '2017-09-29 15:28:19');
 
 -- ----------------------------
 -- Table structure for os_auth_group
@@ -74,12 +75,13 @@ CREATE TABLE `os_auth_group` (
   `status` tinyint(1) NOT NULL DEFAULT '1',
   `rules` varchar(255) NOT NULL COMMENT '权限规则ID',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COMMENT='权限组表';
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COMMENT='权限组表';
 
 -- ----------------------------
 -- Records of os_auth_group
 -- ----------------------------
 INSERT INTO `os_auth_group` VALUES ('1', '超级管理组', '1', '1,2,3,73,74,5,6,7,8,9,10,11,12,39,40,41,42,43,14,13,20,21,22,23,24,15,25,26,27,28,29,30,16,17,44,45,46,47,48,18,49,50,51,52,53,19,31,32,33,34,35,36,37,54,55,58,59,60,61,62,56,63,64,65,66,67,57,68,69,70,71,72');
+INSERT INTO `os_auth_group` VALUES ('2', '权限组1', '1', '');
 
 -- ----------------------------
 -- Table structure for os_auth_group_access
@@ -211,12 +213,13 @@ CREATE TABLE `os_category` (
   `path` varchar(255) DEFAULT '' COMMENT '路径',
   `create_time` datetime NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COMMENT='分类表';
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COMMENT='分类表';
 
 -- ----------------------------
 -- Records of os_category
 -- ----------------------------
 INSERT INTO `os_category` VALUES ('1', '分类一', '', '', '', '', '', '', '1', '0', '0', '0,', '2016-12-22 18:22:24');
+INSERT INTO `os_category` VALUES ('2', '栏目1', '', '<p>栏目</p>', '', '', '', '', '1', '0', '0', '0,', '2017-09-29 15:28:01');
 
 -- ----------------------------
 -- Table structure for os_link
@@ -251,11 +254,14 @@ CREATE TABLE `os_nav` (
   `status` tinyint(1) unsigned NOT NULL DEFAULT '1' COMMENT '状态  0 隐藏  1 显示',
   `sort` int(11) NOT NULL DEFAULT '0' COMMENT '排序',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='导航表';
+) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COMMENT='导航表';
 
 -- ----------------------------
 -- Records of os_nav
 -- ----------------------------
+INSERT INTO `os_nav` VALUES ('1', '0', '导航1', 'wu', 'http://www.baidu.com', '', '_blank', '1', '0');
+INSERT INTO `os_nav` VALUES ('2', '0', '导航2', '', 'http://www.baidu.com', '', '_self', '1', '0');
+INSERT INTO `os_nav` VALUES ('4', '0', '导航3', '', '', '', '_self', '1', '0');
 
 -- ----------------------------
 -- Table structure for os_slide
