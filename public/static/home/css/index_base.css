@@ -48,6 +48,50 @@ body {
     flex: 1 1 auto;
     padding: 1.25rem;
 }
+.ab-layer-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.3);
+}
+.ab-layer-bg .ab-layer{
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.hot{
+    padding: 50px;
+    margin-top: 30px;
+}
+.roll{
+    background: url(../images/16.jpg) center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    min-height: 350px;
+    padding: 5em 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.roll .roll-info{
+    background-color: #fff;
+    padding: 2em;
+}
+.copyright{
+    background: #191919;
+    padding: 1em 0;
+}
+.copyright .copyright-info{
+    text-align: center;
+    color: #adadad;
+    font-size: 12px;
+    font-family: "宋体";
+    margin-bottom: 0;
+}
 @media (max-width: 1024px){
     .banner {
         min-height: 570px;
